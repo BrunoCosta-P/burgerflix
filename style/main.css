@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial black', times;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*filme prinncipal*/
+
+.filme-principal {
+    font-size: 16px;
+    background-image: url(fotoprincipal.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .container{
+    width: 70%;
+    font-weight: bold;
+    
+}
+
+.filme-principal .container p {
+    font-weight: bold;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.filme-principal .descricao{
+    margin:10px 0 40px 0;
+
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;   
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: .5s ;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 10PX;
+    
+}
+
+.subtitulo {
+    margin: 5px 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.item .box-filme:hover {
+    transform: scale(1.07);
+    opacity: .5;
+
+    
+}
+
+.item .box-filme:active {
+    opacity: .4;
+    transition: .1s ease;
+
+}
+
+
+
+/* style para o modal*/
+
+
+.container-modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .80);
+    display: none;
+}
+
+.modal-video {
+    margin: 3% auto;
+    height: 90%;
+    max-width: 900px;
+    
+
+}
+
+.video iframe {
+    width: 100%;
+    
+}
+
+.descricao-video {
+    background-color: var(--preta);
+    padding: 15px;
+    min-height: 45%;
+    border-radius: 0 0 20px 20px;
+}
+
+.descricao-video h2 {
+    text-align: center;
+    padding: 15px 0 10px 0;
+    border-bottom: solid 5px #1d1c1c;
+    border-radius: 5px;
+    
+}
+
+.descricao-video p {
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1d1c1c;
+    color: #aaa;
+    transition: 1s ease all;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+

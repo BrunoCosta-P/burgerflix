@@ -1,304 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="style.css">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
-   
-    
-    <!--owl css-->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
-    
-    <title>BurgerFlix</title>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h2 class="logo">BurgerFlix</h2>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#tradi">Hamburguerias</a>
-                <a href="#receitas">Receitas</a>
-                <a href="#avaliando">Avaliando Delivery</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="filme-principal">
-            <div class="container">
-                <h3 class="titulo">TRADI</h3>
-                <p class="descricao">TRADIÇÃO E QUALIDADE NOS MÍNIMOS DETALHES</p>
-                
-                <div class="botoes"></div>
-                    <button role="button" class="botao" onclick="openModal ('tradi1')">
-                        <i class="fas fa-play"> </i>
-                        Assista Agora
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        Mais Informações
-                    </button>
-                </div>
-            </section>
-        </div>
-
-        <section id="tradi" class="carrosel-filmes">
-            <div class="subtitulo">Tradi</div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi1.jpg" alt="1" onclick="openModal ('tradi1')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi2.jpg" alt="2" onclick="openModal('tradi2')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi3.jpg" alt="3" onclick="openModal('tradi3')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi4.jpg" alt="4" onclick="openModal('tradi4')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi5.jpg" alt="5" onclick="openModal('tradi5')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi6.jpg" alt="6" onclick="openModal('tradi6')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi7.jpg" alt="7" onclick="openModal('tradi7')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi8.jpg" alt="8" onclick="openModal('tradi8')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi9.jpg" alt="9" onclick="openModal('tradi9')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi10.jpg" alt="10" onclick="openModal('tradi10')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Tradi/tradi11.jpg" alt="11" onclick="openModal('tradi11')">
-                </div>
-               
-            </div>
-        </section>
-
-        <section id="invasao" class="carrosel-filmes">
-            <div class="subtitulo">Invasão</div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva1.jpg" alt="" onclick="openModal('inva1')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva2.jpg" alt="" onclick="openModal('inva2')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva3.jpg" alt="" onclick="openModal('inva3')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva4.jpg" alt="" onclick="openModal('inva4')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva5.jpg" alt="" onclick="openModal('inva5')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva6.jpg" alt="" onclick="openModal('inva6')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva7.jpg" alt="" onclick="openModal('inva7')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva8.jpg" alt="" onclick="openModal('inva8')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva9.jpg" alt="" onclick="openModal('inva9')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva10.jpg" alt="" onclick="openModal('inva10')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva11.jpg" alt="" onclick="openModal('inva11')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Invasão na cozinha/inva12.jpg" alt="" onclick="openModal('inva12')">
-                </div>
-            </div>
-        </section>
-        
-        <section id="receitas" class="carrosel-filmes">
-            <div class="subtitulo">Receitas</div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece1.jpg" alt="" onclick="openModal('rece1')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece2.jpg" alt="" onclick="openModal('rece2')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece3.jpg" alt="" onclick="openModal('rece3')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece4.jpg" alt="" onclick="openModal('rece4')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece5.jpg" alt="" onclick="openModal('rece5')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece6.jpg" alt="" onclick="openModal('rece6')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece7.jpg" alt="" onclick="openModal('rece7')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece8.jpg" alt="" onclick="openModal('rece8')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece9.jpg" alt="" onclick="openModal('rece9')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece10.jpg" alt="" onclick="openModal('rece10')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece11.jpg" alt="" onclick="openModal('rece11')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Receitas/rece12.jpg" alt="" onclick="openModal('rece12')">
-                </div>
-            </div>
-        </section>
-        
-        <section id="aperitivos" class="carrosel-filmes">
-            <div class="subtitulo">Aperitivos</div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper1.jpg" alt="" onclick="openModal('aper1')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper2.jpg" alt="" onclick="openModal('aper2')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper3.jpg" alt="" onclick="openModal('aper3')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper4.jpg" alt="" onclick="openModal('aper4')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper5.jpg" alt="" onclick="openModal('aper5')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper6.jpg" alt="" onclick="openModal('aper6')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper7.jpg" alt="" onclick="openModal('aper7')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper8.jpg" alt="" onclick="openModal('aper8')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper9.jpg" alt="" onclick="openModal('aper9')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper10.jpg" alt="" onclick="openModal('aper10')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper11.jpg" alt="" onclick="openModal('aper11')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Aperitivos/aper12.jpg" alt="" onclick="openModal('aper12')">
-                </div>
-            </div>
-        </section>
-        
-        <section id="avaliando" class="carrosel-filmes">
-            <div class="subtitulo">Avaliando DELIVERY</div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava1.jpg" alt="" onclick="openModal('ava1')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava2.jpg" alt="" onclick="openModal('ava2')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava3.jpg" alt="" onclick="openModal('ava3')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava4.jpg" alt="" onclick="openModal('ava4')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava5.jpg" alt="" onclick="openModal('ava5')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava6.jpg" alt="" onclick="openModal('ava6')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava7.jpg" alt="" onclick="openModal('ava7')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava8.jpg" alt="" onclick="openModal('ava8')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava9.jpg" alt="" onclick="openModal('ava9')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava10.jpg" alt="" onclick="openModal('ava10')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava11.jpg" alt="" onclick="openModal('ava11')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Avaliando DELIVERY/ava12.jpg" alt="" onclick="openModal('ava12')">
-                </div>
-            </div>
-        </section>
-        
-        <section id="patties" class="carrosel-filmes">
-            <div class="subtitulo">Patties</div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt1.jpg" alt="" onclick="openModal('patt1')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt2.jpg" alt="" onclick="openModal('patt2')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt3.jpg" alt="" onclick="openModal('patt3')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt4.jpg" alt="" onclick="openModal('patt4')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt5.jpg" alt="" onclick="openModal('patt5')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt6.jpg" alt="" onclick="openModal('patt6')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt7.jpg" alt="" onclick="openModal('patt7')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt8.jpg" alt="" onclick="openModal('patt8')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt9.jpg" alt="" onclick="openModal('patt9')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt10.jpg" alt="" onclick="openModal('patt10')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt11.jpg" alt="" onclick="openModal('patt11')">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/Patties/patt12.jpg" alt="" onclick="openModal('patt12')">
-                </div>
-            </div>
-        </section>
 
 
-        <!-- Modal -->
+
 
 <!-- Estrutura modal Tradi-->
 
@@ -310,7 +12,6 @@
         <div class="descricao-video">
             <h2>INVASÃO TRADI HAMBURGUERIA | Hambúrguer Perfeito</h2>
             <p>Invadimos a cozinha da Tradi, uma das hamburguerias mais premiadas de São Paulo e contamos a sua história junto com o Liersinho, filho do Liersão!</p>
-            <button class="btn" role="button" onclick="closeModal('tradi1')">X</button>
         </div>
     </div>
 </div>
@@ -375,8 +76,11 @@
         <div class="descricao-video">
             <h2>Tradi - Sanduba Indica</h2>
             <p>Apresentação:
-                Chef Eduardo Perrone              
+
+                Chef Eduardo Perrone
+                
                 Direção e edição:
+                
                 Mauricio Yanikian</p>
             <button class="btn" role="button" onclick="closeModal('tradi6')">X</button>
         </div>
@@ -756,17 +460,18 @@
         <div class="descricao-video">
             <h2>RECEITA DE HAMBÚRGUER DE SALMÃO (SALMON BURGER)        </h2>
             <p>
-                Receita: Hamburguer de Salmão <br>
-                Receita: André Dias. <br>
+                Receita de churrasco.
+                Receita: Hamburguer de Salmão
+                Receita: André Dias.
                 
                 500g de salmão fresco
                 TEMPERO SPG BBQ EM CASA
                 Pão de Hamburguer
                 Rucula
                 Tomate Picado
-                Maionese <br><br>
+                Maionese 
                 
-                Modo de preparo:<br>
+                Modo de preparo:
                 
                 Remova a pele do salmão e pique com a faca ou passe num processador, misture o tempero SPG BBQ EM CASA junto ao salmão e faça os discos de hamburguers.
                 
@@ -1287,16 +992,3 @@
 
 
 
-
-
-
-    </main>
-
-    <footer></footer>
-
-    <script src="https://kit.fontawesome.com/1c96bc8c85.js" crossorigin="anonymous"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
